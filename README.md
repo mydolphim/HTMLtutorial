@@ -12,3 +12,6 @@ How to make a favicon?
 Go to this Website!
 
 https://favicon.io/favicon-converter/
+
+ORDER! 
+1. [intro.html](https://github.com/mydolphim/HTMLtutorial/blob/main/HTML/intro.html)
