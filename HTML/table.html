@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <!--* Let's add some styles to the table! -->
+    <!--? <style> tag always goes in head!  -->
+    <style>
+        table {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+        }
+        /* Don't worry about this yet because it's not time for CSS yet! */
+    </style>
+</head>
+<body>
+    <!--! TABLE -->
+    <!--? 1st step make a <table><table/> tag  -->
+    <!--? 2nd use <caption></cation> tag inside the <table> tag and give the table a caption!  -->
+    <!--? Third, use <tr> element to make a new row -->
+    <!--? <th> or <td>? th = table heading use this at the first row!  -->
+    <!--? <td> = table data! use this as your data-->
+    <h1>Table!</h1>
+    <!--? There is an attribute called border! However, don't use this because we can style prettier with CSS  -->
+    <!--? However, there are some good things about using this attribute!  -->
+    <table>
+        <caption>Coding Information</caption>
+        <tr>
+            <th>Language</th>
+            <th>good/bad</th>
+            <th>learned</th>
+        </tr>
+        <tr>
+            <td>JavaScript</td>
+            <td>good</td>
+            <td>yes</td>
+        </tr>
+        <tr>
+            <td>Python</td>
+            <td>good</td>
+            <td>yes</td>
+        </tr>
+    </table>
+    <!--? Table group tags  -->
+    <!-- 
+    • colgroup : we can group the column of the table
+    • col: we can decide how much to group
+    • thead: group table headings
+    • tbody: groups all the information (data)
+    • tfoot groups the last line of the table
+    • 
+    -->
+    <table>
+        <caption>Class average</caption>
+        <colgroup>
+            <col width="50px">
+            <col width="60px">
+            <col width="60px">
+            <col width="60px">
+        </colgroup>
+        <tr>
+            <thead>
+                <th>Classes</th>
+                <th>Math</th>
+                <th>English</th>
+                <th>Coding</th>
+            </thead>
+        </tr>
+        <tbody>
+            <tr>
+                <td>Class 1</td>
+                <td>90%</td>
+                <td>85%</td>
+                <td>92%</td>
+            </tr>
+            <tr>
+                <td>Class 2</td>
+                <td>80%</td>
+                <td>90%</td>
+                <td>86%</td>
+            </tr>
+            <tr>
+                <td>Class 3</td>
+                <td>86%</td>
+                <td>94%</td>
+                <td>78%</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>average</td>
+                <td>85%</td>
+                <td>90%</td>
+                <td>85%</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
