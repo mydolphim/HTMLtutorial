@@ -24,4 +24,4 @@ ORDER!
 8. [global-attribute](https://github.com/mydolphim/HTMLtutorial/blob/main/HTML/global-attribute.html)
 9. [link](https://github.com/mydolphim/HTMLtutorial/blob/main/HTML/link.html)
 
-AFTER THIS, YOU CAN GO TO ANY ORDER!
+AFTER THIS, YOU CAN GO BY ANY ORDER!
